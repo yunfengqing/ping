@@ -1,0 +1,29 @@
+/*
+* @Author: jiaqi
+* @Date:   2017-08-03 15:42:36
+* @Last Modified by:   jiaqi
+* @Last Modified time: 2017-08-24 16:10:13
+*/
+html,body,ul,ol,li,form,input,textarea,h1,p,pre,dl,dt,dd{
+	border: none;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+} 
+a{
+	text-decoration: none;
+}
+*{
+	font-family: "苹方"
+}
+.logo{
+	width: 100px;
+	height: 100px;
+	/* position: absolute; */
+	margin-top: 5px;
+	/* margin-left: 10px; */
+}
+.logo-tu{
+	width: 70px;
+	height: 70px;
+}

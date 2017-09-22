@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="{CHARSET}">
+		<title></title>
+		
+	</head>
+	
+	<style>
+	    *{
+	    	padding: 0;
+	    	margin: 0;
+	    }
+	    body{
+	    	width: 100%;
+	        height: 100%;
+	    	/* background: red; */
+	    	background: url('1.jpg') no-repeat top center;
+	    	background-size: 100% 700px;
+	    }
+        .char{
+        	width: 50px;
+        	height: 50px;
+        	background: no-repeat bottom/cover;
+        	border-radius: 20%;
+        	font-family: '苹方';
+        	font-size: 0px;
+            line-height: 40px;
+            text-align: center;
+            position: absolute;
+            color: darkblue;
+            /* transition: all 1s; */
+        }
+        .fen,.ming,.guan{
+        	width: 100px;
+        	height: 30px;
+        	border-radius: 5px;
+        	background: skyblue;
+        	margin-top: 10px;
+        	line-height: 30px;
+        	text-align: center;
+        	font-family: '苹方';
+        	font-size: 18px;
+        	border: 1px solid blue;
+        	margin-left: 10px;
+        	display: none;
+        }
+        .sta{
+        	width: 250px; 
+        	height: 150px; 
+        	border-radius: 15px;
+        	margin-top: 110px;
+        	line-height: 30px;
+        	text-align: center;
+        	font-family: '苹方';
+        	font-size: 30px;
+        	background: skyblue;
+        	border: 1px solid blue;
+        	margin-left: 610px;
+        	/* background: url('5.png') no-repeat  center center; */
+        	background-size: 50%;
+        }
+	</style>
+	<body>
+	    <div class="fen">分数:
+	    	<span>0</span>
+	    </div>
+	    <div class="ming">生命:
+	    	<span>10</span>
+	    </div>
+	    <div class="guan">第:
+	    	<span>1</span>
+	    	关
+	    </div>
+	    <button class="sta">开始</button>
+	</body>
+</html>
+<script src="dazi.js"></script>
+<script>
+    let game=new Game()
+    let sta=document.querySelector('button.sta')
+    let guan=document.querySelector('.guan')
+    let ming=document.querySelector('.ming')
+    let fen=document.querySelector('.fen')
+    sta.onclick=function(){
+        guan.style.display='block'
+        ming.style.display='block'
+        fen.style.display='block'
+        sta.style.display='none'
+        game.start()
+    }
+    
+	
+
+</script>

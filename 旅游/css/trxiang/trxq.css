@@ -1,0 +1,144 @@
+/*
+* @Author: jiaqi
+* @Date:   2017-08-27 13:55:23
+* @Last Modified by:   jiaqi
+* @Last Modified time: 2017-08-27 15:30:29
+*/
+html,body,ul,ol,li,form,input,textarea,h1,p,pre,dl,dt,dd{
+	border: none;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+} 
+a{
+	text-decoration: none;
+}
+*{
+	font-family: "苹方"
+}
+.biaoqian{
+	background: #fff;
+	border-bottom: 1px solid #D9D9D9;
+} 
+.biaoqian>a{
+	color:#2A333C;
+}
+.hs{
+	width: 100%;
+	height: 3124px;
+	background: #fff;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 85px;
+}
+main{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	margin-top: 82px;
+}
+.hs-left{
+	width: 802px;
+	height: 100%;
+	background: #fff;
+	float: left;
+}
+.hs-right{
+	width: 320px;
+	height: 640px;
+	float: right;
+	background: #fff;
+	border:2px solid skyblue;
+	border-right: 1px solid skyblue;
+	border-left: 1px solid skyblue;
+	margin-top: 57px;
+}
+.right-ul{
+	width: 320px;
+	height: 640px;
+}
+.right-ul>li{
+	width: 100%;
+	height: 16.666666%;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-ul>li>a{
+	width: 256px;
+	height: 50px;
+	border-radius: 20px;
+	color: skyblue;
+	font-size: 18px;
+	text-align: center;
+	line-height: 50px;
+	background: #fff;
+	border: 1px solid skyblue;
+}
+.right-ul>li>a:hover{
+	background: skyblue;
+	color: #fff;
+}
+.hs-left>span:nth-of-type(1){
+    width: 100%;
+    height: 40px;
+    font-size: 36px;
+    color: skyblue;
+    line-height: 40px;
+    margin-top: 57px;
+    display: block;
+}
+.hs-left>span:nth-of-type(2){
+    width: 100%;
+    height: 28px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000;
+    margin: 25px 0;
+    border-bottom: 2px solid #DDDDDD;
+    display: block;
+    padding-bottom: 30px;
+}
+.hs-ul{
+	width: 100%;
+	height: 4818px;
+	/* background: red; */
+}
+.hs-ul>li{
+	width: 100%;
+	height: 10%;
+}
+.hs-ul>li>span{
+    color: #000;
+	font-size: 14px;
+	display: block;
+	padding-bottom: 1px;
+}
+.hs-ul>li>a{
+    margin-top: 20px;
+    width: 600px;
+    height: 360px;
+    display: block;
+}
+.hs-ul>li>a>img{
+	width: 100%;
+    height: 100%;
+}
+.guding{
+	width: 50px;
+	height: 30px;
+	border-radius: 10px;
+	background: #fff;
+	border: 1px solid skyblue;
+	position: fixed;
+	bottom: 10px;
+	margin-bottom: 10px;
+	right: 10px;
+	font-family: "iconfont";
+	font-size: 40px;
+	color: skyblue;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+}

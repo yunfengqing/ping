@@ -1,0 +1,37 @@
+/*
+* @Author: jiaqi
+* @Date:   2017-08-22 19:52:14
+* @Last Modified by:   jiaqi
+* @Last Modified time: 2017-09-17 20:18:07
+*/
+html,body,ul,ol,li,form,input,textarea,h1,p,pre,dl,dt,dd{
+	border: none;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+} 
+a{
+	text-decoration: none;
+}
+*{
+	font-family: "苹方"
+}
+.biaoqian{
+	width: 100%;
+	height: 82px;
+	background: rgba(0, 0, 0, 0.3);
+	/* position: absolute; */
+	justify-content: space-around;
+	position: fixed;
+	display:flex;
+	z-index: 39;
+	transition: all ease 1s;
+}
+.biaoqian>a{
+	float: left;
+    color: #fff;
+    line-height: 80px;
+}
+.biaoqian>a:hover{
+	color: blue;
+}

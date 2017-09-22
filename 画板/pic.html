@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>画板</title>
+		<script src="pic.js"></script>
+		<link rel="stylesheet" href="iconfont\font_398713_s2xp58p1is6h6w29\iconfont.css" />
+	</head>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+			list-style: none;
+		}
+		html,body{
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+		main{
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+		}
+		.left{
+			width: 132px;
+			height: 100%;
+			background: #EEEEEE;
+			position: absolute;
+			left: 0;
+			top: 0;
+			border: 1px solid #008508;
+			padding:15px ;
+			/*display: flex;
+		    flex-wrap: wrap;*/
+			/*justify-content:center;*/
+			/*align-items: center;*/
+		}
+		.left>label{
+			width: 50px;
+			height: 50px;
+			float: left;
+			margin:5px 8px 5 0;
+			box-sizing: border-box;
+			border: 1px solid #62A8EA;
+		    font-size: 20px;
+		    font-family: 'iconfont';
+		    color: #333333;
+		    line-height: 50px;
+		    text-align: center;
+		}
+		.right{
+			left: 132px;
+			width: 100%;
+			height: 100%;
+			background:#AAAAAC;
+			position: absolute;
+		}
+		.right>.top{
+			width: 100%;
+			height: 100px;
+			background: #EAFFEA;
+		}
+		.right>.bottom{
+			width:100%;
+			height: 560px;
+			position: absolute;
+			top: 100px;
+			background: #5C5C5F;
+		}
+		canvas{
+			border: 1px solid #0000FF;
+			background: #fff;
+			margin-left: 1px;
+		}
+		.left>label[active=true]{
+			background: red;
+		}
+		.bottom>.eraser{
+			width: 50px;
+		    height:50px;
+		    position: absolute;
+		    background: #969896;
+		    top:0;
+		    left: 0;
+		    display: none;
+		    border-radius: 10px;
+		    font-family: 'iconfont';
+		    font-size: 30px;
+		    /*background-image: url();*/
+		}
+		.bottom>.zhezhao{
+			position: absolute;
+			width: 1230px;
+			height: 558px;
+			top:0;
+		    left: 0;
+			/*background: green;*/
+		}
+		input{
+			width: 30px;
+			height: 30px;
+		}
+		.top>ul>li,.top>ul>a{
+			width: 50px;
+			height: 50px;
+			background: #CCCCCC;
+			float: left;
+			margin-top: 30px;
+			margin-left: 20px;
+			font-family: 'iconfont';
+			font-size: 10px;
+			line-height: 50px;
+		    text-align: center;
+		}
+		.clip{
+			border: 1px solid red;
+			position: absolute;
+			top:0;
+		    left: 0;
+		    display: none;
+		}
+	</style>
+	<body>
+		<main>
+		    <div class="left">
+			    <label class="icon-xuxian tool" active="true" id="xu"></label>
+			    <label class="icon-xian- tool" id="line"></label>
+			    <label class="icon-pan_icon tool" id="qian"></label>
+			    <label class="icon-duobianxing tool" id="duobian"></label>
+			    <label class="icon-yuan tool"  id="yu"></label>
+			    <label class="icon-juxing tool" id="ju"></label>
+			    <label class="icon-wujiaoxing tool" id="jiao"></label>
+			    <label class="icon-xiangpi1"></label>
+			    <label class="icon-caiqie1 tool"></label>
+			    <label class="icon-wenziICON" id="wen"></label>
+			    <label class="icon-huaban style" id="stroke"></label>
+			    <label><input type="color" /></label>
+			    <label class="icon-yanse style" active="true" id="fill"></label>
+			    <label><input type="color" /></label>
+		    </div>
+		    <div class="right">
+		    	<div class="top">
+		    		<ul>
+		    			<li class="icon-msnui-new">新建</li>
+		    			<a class="icon-baocun1">保存</a>
+		    			<li class="icon-lishijilu">反回</li>
+		    		</ul>
+		    	</div>
+		     	<div class="bottom">
+		     		<canvas width="1230" height="558"></canvas>
+		     		<div class="eraser"></div>
+		     		<div class="clip"></div>
+		     		<div class="zhezhao"></div>
+		     	</div>
+		   </div>
+		   <!--内容是否可编辑-->
+		   <!--<div contenteditable="true" style="width: 100px;height: 100px;background: red;margin-top: 100px;margin-left: 100px;z-index: 99999;"></div>-->
+		</main>
+	</body>
+</html>
+<script src="but.js"></script>
+	
+

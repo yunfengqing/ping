@@ -1,0 +1,307 @@
+/*
+* @Author: jiaqi
+* @Date:   2017-07-20 16:05:52
+* @Last Modified by:   jiaqi
+* @Last Modified time: 2017-07-21 01:01:03
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.head{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+}
+.logo{
+	width: 1.06rem;
+	height:0.92rem;
+	/* background: red; */
+	float: left;
+	margin-left: 2.54rem;
+}
+.logo1{
+	width: 0.7rem;
+	height: 0.7rem;
+	/* margin-top: 0.13rem; */
+	margin-bottom: 0.13rem;
+	/* margin: 0 auto; */
+	margin-left: 0.18rem;
+}
+.head-zi{
+   height: 100%;
+   width: 2.15rem;
+   /* text-align: center; */
+   line-height: 0.92rem;
+   font-size: 0.4rem;
+   color: white;
+   margin-left: 0.15rem;
+   float: left;
+}
+.banner{
+	width: 100%;
+	height: 2.8rem;
+}
+.navlist{
+	width: 100%;
+	height: 4.81rem;
+	background: #f5f6fa;
+}
+.navlist li{
+    width: 25%;
+    height: 2.405rem;
+    float: left;
+    /* background: black; */
+}
+.navlist li .navlist-tu{
+	width: 1.55rem;
+	height: 1.55rem;
+	background: white;
+	border-radius: 20%;
+	/* margin: 0 auto; */
+	margin-top: 0.29rem;
+	float: left;
+	margin-left: 0.2rem;
+}
+.navlist-tu1{
+	width: 1.55rem;
+	height: 1.55rem;
+}
+.navlist-zi{
+	width: 1.55rem;
+	height: 0.855rem;
+	font-size: 0.2rem;
+	color: black;
+	text-align: center;
+	line-height: 0.855rem;
+	float: left;
+	/* margin-bottom: 0rem; */
+	font-weight: bolder;
+}
+.fuwu{
+	width: 100%;
+	height: 0.63rem;
+	background: #ffffff;
+	border-bottom: 0.01rem solid #e8e8e8;
+}
+.fuwi-zi{
+	width:1.40rem;
+	height: 0.63rem;
+	font-size: 0.22rem;
+	color:#0377bc;
+	line-height: 0.63rem; 
+	text-align: center; 
+	margin-left: 2.96rem;
+}
+.jiatiao{
+	width: 100%;
+	height: 0.22rem;
+	background: #f5f6fa;
+}
+.fuwunei{
+	width: 100%;
+	height: 3.58rem;
+	background: white;
+	border-top: 0.01rem solid #e8e8e8;
+	border-bottom: 0.01rem solid #e8e8e8;
+	border-left: 0.01rem solid #e8e8e8;
+	box-sizing: border-box;
+}
+.fuwunei1{
+	width: 100%;
+	height: 2.18rem;
+	border-bottom: 0.01rem solid #e8e8e8;
+}
+.fuwunei2{
+    height: 1.38rem;
+    width: 100%;
+}
+.fuwunei11{
+	width: 50%;
+	height: 100%;
+	background: white;
+	border-right: 0.01rem solid #e8e8e8;
+	box-sizing: border-box;
+	float: left;
+}
+.fuwunei12{
+	border-right: 0rem solid #e8e8e8;
+}
+.fuwunei21{
+	width: 33.333333%;
+	height: 100%;
+	border-right: 0.01rem solid #e8e8e8;
+	box-sizing: border-box;
+	float: left;
+}
+.fuwunei22{
+	border-right: 0rem solid #e8e8e8;
+}
+.fuwu-zi{
+	width: 1.72rem;
+	height: 1.7rem;
+	/* background: red; */
+	float: left;
+}
+.fuwunei-tu{
+	float: right;
+	width: 1.91rem;
+	height: 2.1rem;
+}
+.fuwunei-tu1{
+	width: 1.91rem;
+	height: 2.1rem;
+}
+.fuwunei11-zi{
+	height: 0.78rem;
+	width: 100%;
+	font-size: 0.24rem;
+	color: black;
+	line-height: 0.78rem;
+	text-align: center;
+	/* background: yellow; */
+}
+.fuwunei11-zi2{
+    height: 0.76rem;
+    width: 100%;
+	color: #999999;
+	font-size: 0.20rem;
+	text-align: center;
+	/* background: seagreen; */
+}
+.fuwunei2-tu{
+	width: 0.99rem;
+	height: 1.34rem;
+	float: left;
+}
+.fuwunei2-tu1{
+	width: 0.99rem;
+	height:1.34rem;
+}
+.fuwu2-zi{
+    width: 1.36rem;
+    height: 100%;
+    float: left;
+}
+.fuwu2-zi1{
+	width: 100%;
+	height: 0.84rem;
+	font-size: 0.24rem;
+	color: black;
+	line-height: 0.84rem;
+	text-align: center;
+}
+.fuwu2-zi2{
+    height: 0.20rem;
+    width: 100%;
+	color: #999999;
+	font-size: 0.20rem;
+	text-align: center;
+}
+.riao2{
+	width: 100%;
+	height: 0.21rem;
+	background: #e6e7e8;
+}
+.foot{
+	width: 100%;
+	height: 0.8rem;
+    border-bottom: 0.4rem solid #f5f6fa;
+}
+/* .foot-right1{
+	width: 0.44rem;
+	height: 0.8rem;
+	float: left;
+	background: red;
+	margin-left: 0.13rem;
+} */
+.foot-right11{
+	width: 0.44rem;
+	height: 0.7rem;
+	float: left;
+}
+.foot-right12{
+	width: 0.44rem;
+	height: 0.7rem;
+	/* display: block; */
+	float: left;
+	background: red;
+	margin-left: 0.13rem;
+}
+.foot-right2{
+	width: 1.08rem;
+	height: 0.8rem;
+	float: left;
+	/* background: red; */
+}
+.foot-zho1{
+	width: 2.36rem;
+	height: 0.8rem;
+	background:#ff7e00;
+	margin-left: 0.93rem;
+	float: left;
+	box-shadow: 0rem 0rem 0.30rem 0.03rem rgb(255, 126, 0) ;
+	position: relative;
+	border-radius: 0.09rem;
+}
+.foot-you1{
+	width: 1.67rem;
+	height: 0.8rem;
+	/* background: red; */
+	margin-left: 0.89rem;
+	float: left;
+	position: relative;
+}
+
+.foot-right2-zi{
+	font-size: 0.2rem;
+	color: black;
+	text-align:center;
+	line-height: 0.8rem;
+	float: left;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 354525 */
+  src: url('http://at.alicdn.com/t/font_khz7nr97g9aiqkt9.eot');
+  src: url('http://at.alicdn.com/t/font_khz7nr97g9aiqkt9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_khz7nr97g9aiqkt9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_khz7nr97g9aiqkt9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_khz7nr97g9aiqkt9.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: iconfont;
+	font-size: 0.4rem;
+	color: white;
+	/* text-align: center; */
+	left: 0.36rem;
+	position: absolute;
+	top: 0.18rem;
+}
+.foot-zho12{
+	font-size: 0.2rem;
+	position: absolute;
+	color: white;
+	top: 0.28rem;
+	left: 0.92rem;
+}
+.foot-you11{
+	position: relative;
+	right: -0.05rem;
+	top:-0.07rem;
+	width: 0.32rem;
+	height: 0.8rem;
+}
+.foot-you12{
+	font-size: 0.2rem;
+	color: black;
+	width: 1.42rem;
+	height: 0.8rem;
+	text-align: center;
+	position: absolute;
+	top: 0.21rem;
+	left: 0.13rem;
+	float: right;
+}

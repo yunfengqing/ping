@@ -1,0 +1,361 @@
+/*
+* @Author: jiaqi
+* @Date:   2017-07-21 09:24:02
+* @Last Modified by:   jiaqi
+* @Last Modified time: 2017-07-23 12:44:24
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.head{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+}
+.logo{
+	width: 1.06rem;
+	height:0.92rem;
+	/* background: red; */
+	float: left;
+	margin-left: 2.54rem;
+}
+.logo1{
+	width: 0.7rem;
+	height: 0.7rem;
+	/* margin-top: 0.13rem; */
+	margin-bottom: 0.13rem;
+	/* margin: 0 auto; */
+	margin-left: 0.18rem;
+}
+.head-zi{
+   height: 100%;
+   width: 2.15rem;
+   /* text-align: center; */
+   line-height: 0.92rem;
+   font-size: 0.4rem;
+   color: white;
+   margin-left: 0.15rem;
+   float: left;
+}
+.banner{
+	width: 100%;
+	height: 2.8rem;
+}
+.guanyu{
+	width: 100%;
+	height: 0.82rem;
+	background: #f5f6fa;
+	overflow: hidden;
+}
+.guanyu pre{
+    font-size: 0.23rem;
+    color: #494747;
+    padding-left: 0.23rem;
+    margin-top: 0.25rem;
+}
+.guanyu pre a{
+	color: #494747;
+}
+.jinpai{
+	width: 100%;
+	height:1.01rem;
+	background: #f5f6fa; 
+}
+.jinpai-diceng{
+	width: 7.02rem;
+	height: 0.8rem;
+	background: white;
+	margin: 0 auto;
+	border-radius: 0.06rem;
+	border: 0.02rem solid #01b5ff;
+	box-sizing: border-box;
+	display:flex;
+}
+.jinpai-left{
+	width: 2.59rem;
+	height: 0.8rem;
+	border-radius: 0.06rem;
+	font-size: 0.25rem;
+	background: #01b5ff;
+	font-weight: bolder;
+	line-height: 1.01rem;
+	text-align: center;
+	display: block;
+}
+.jinpaisanjiao{
+	width: 0rem;
+	height: 0rem;
+    border-top: 0.22rem solid #01b5ff;
+    border-bottom: 0.22rem solid transparent;
+    border-left: 0.22rem solid transparent;
+    border-right: 0.22rem solid transparent;
+    margin-left: 1.42rem;
+}
+.jinpai-zhong{
+	width: 1.86rem;
+	height: 100%;
+	font-size: 0.24rem;
+	color: #111111;
+	line-height: 0.8rem;
+	text-align: center;
+	display: block;
+}
+.jinpai-right{
+	width: 2.05rem;
+	height: 100%;
+	/* background: #f5f6fa; */
+	font-size: 0.24rem;
+	color: #111111;
+	line-height: 0.8rem;
+	text-align: center;
+	display: block;
+}
+.renwu{
+	height: 13.9rem;
+	width: 100%;
+	background: #f5f6fa;
+}
+.renwu-zhong{
+	height: 100%;
+	width:7.02rem;
+	background:#ffffff;
+	margin: 0 auto;
+}
+.renwu-zhong li{
+	width: 100%;
+	height: 20%;
+	/* background: red; */
+	border-bottom: 0.1rem solid #f5f6fa;
+	box-sizing: border-box;
+	overflow: hidden;
+	/* display:flex; */
+}
+.renwu-zhong-tudi{
+    width: 2.3rem;
+    height: 2.3rem;
+    margin-top: 0.2rem;
+    margin-left: 0.21rem;
+    border-radius: 0.05rem;
+    display: block;
+    float: left;
+}
+.renwu-zhong-tu{
+   width: 2.3rem;
+   height: 2.3rem;
+   border-radius: 0.05rem;
+   display: block;
+}
+.renwu-zhong li span:nth-of-type(1){
+   color: #2f2f2f;
+   font-size: 0.27rem;
+   margin-left: 0.24rem;
+   margin-top: 0.39rem;
+   float: left;
+   padding-bottom: 0.1rem;
+   border-bottom: 0.01rem dashed #2f2f2f;
+}
+.renwu-zhong li span:nth-of-type(2){
+   color: #ff9300;
+   font-size: 0.24rem;
+   margin-left: 1.81rem;
+   margin-top: 0.39rem;
+   float: left;
+}
+.renwu-zhong li span:nth-of-type(3){
+   color: #01b5ff;
+   font-size: 0.24rem;
+   margin-left: -3.7rem;
+   margin-top: 0.87rem;
+   /* margin-left: 0.24rem; */
+   float: left;
+}
+.renwu-zhong-tudi-zi{
+   color: #2f2f2f;
+   font-size: 0.24rem;
+   margin-left: 0.24rem;
+   margin-top: 0.23rem;
+   float: left;
+   width: 3.2rem;
+   height: 1.43rem;
+}
+.foot{
+	width: 100%;
+	height: 1.82rem;
+	background: #f5f6fa;
+	overflow: hidden;
+}
+.foot-top{
+	height: 0.7rem;
+	width: 100%;
+	background: white;
+	margin-top: 0.1rem;
+}
+.foot-zi1{
+	height: 0.33rem;
+	width: 100%;
+	color: #666666;
+	font-size: 0.22rem;
+	line-height: 0.33rem;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+.foot-zi2{
+	height: 0.33rem;
+	width: 100%;
+	color: #666666;
+	font-size: 0.22rem;
+	line-height: 0.33rem;
+	text-align: center;
+	margin-top: 0.1rem;
+}
+.foot-tz{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+}
+.foot-tz1{
+	width: 0.79rem;
+	height: 100%;
+	/* background: red; */
+	float: left;
+}
+.foot-tz2{
+	width: 2.36rem;
+	height: 100%;
+	/* background: green; */
+	float: left;
+}
+.foot-tz3{
+	width: 0.56rem;
+	height: 100%;
+	/* background: pink; */
+	float: left;
+	font-size: 0.02rem;
+	line-height:0.7rem;
+	text-align: center;
+}
+.foot-tz4{
+	width: 0.41rem;
+	height: 100%;
+	/* background: green; */
+	float: left;
+}
+.foot-tz5{
+	width: 0.78rem;
+	height: 100%;
+	/* background: pink; */
+	float: left;
+}
+.foot-tz6{
+	width: 2.12rem;
+	height: 100%;
+	/* background:red; */
+	float: right;
+}
+.foot-tz1-xia{
+	width: 0.58rem;
+	height: 0.31rem;
+	background: white;
+	margin: 0 auto;
+	margin-top: 0.19rem;
+	border-radius: 0.11rem;
+	border: 0.01rem solid #999999;
+	position: relative;
+}
+.foot-tz1-zhong{
+   width: 0.5rem;
+   height: 0.25rem;
+   border-radius: 0.09rem;
+   border: 0.01rem solid black;
+   margin: 0 auto;
+   margin-top: 0.025rem;
+   margin-left: 0.025rem;
+   float: left;
+   background: white;
+   
+}
+.foot-tz1-zhong-zi{
+	font-size: 0.4rem;
+	color: black;
+    position: absolute;
+    top: -0.06rem;
+    left: 0.06rem;
+}
+.foot-tz2 li{
+	width: 0.31rem;
+	height: 0.31rem;
+	background: white;
+	border-radius: 50%;
+	border: 0.01rem solid #999999;
+	margin-left: 0.11rem;
+	margin-top: 0.2rem;
+	float: left;
+}
+.foot-tz22{
+	width: 0.25rem;
+	height: 0.25rem;
+	background: white;
+	border: 0.01rem solid black;
+	border-radius: 50%;
+	color: black;
+	font-size: 0.1rem;
+	line-height: 0.25rem;
+	text-align: center;
+	display: block;
+	margin-left: 0.02rem;
+	margin-top: 0.02rem;
+}
+.foot-tz2 li:nth-child(4){
+   background: #01b5ff;
+}
+.foot-tz2 li:nth-child(4) .foot-tz22{
+	background: #01b5ff;
+	border: 0.01rem solid white;
+	color: white;
+}
+.foot-tz4-1{
+	margin-left: -0.08rem;
+}
+.foot-tz6-left{
+	width: 0.52rem;
+	height: 0.25rem;
+	/* background: yellow; */
+	margin-left: 0.24rem;
+	margin-top: 0.22rem;
+	float: left;
+	font-size: 0.14rem;
+	color: black;
+	text-align: center;
+	line-height: 0.25rem;
+}
+.foot-tz6-1{
+	width: 0.64rem;
+	height: 100%;
+	/* background: gray; */
+	float: left;
+}
+.foot-tz6-2{
+	width: 0.21rem;
+	height: 0.25rem;
+	/* background: gray; */
+	float: left;
+	margin-top: 0.22rem;
+	font-size: 0.14rem;
+	color: black;
+	text-align: center;
+	line-height: 0.25rem;
+}
+.foot-tz6-3{
+	width: 0.51rem;
+	height: 100%;
+	float: left;
+	/* background: yellow; */
+}
+.foot-tz6-31{
+	width: 0.51rem;
+	height: 100%;
+}

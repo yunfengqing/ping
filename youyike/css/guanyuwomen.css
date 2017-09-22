@@ -1,0 +1,251 @@
+/*
+* @Author: jiaqi
+* @Date:   2017-07-20 16:05:40
+* @Last Modified by:   jiaqi
+* @Last Modified time: 2017-07-23 12:41:21
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.head{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+}
+.logo{
+	width: 1.06rem;
+	height:0.92rem;
+	/* background: red; */
+	float: left;
+	margin-left: 2.54rem;
+}
+.logo1{
+	width: 0.7rem;
+	height: 0.7rem;
+	/* margin-top: 0.13rem; */
+	margin-bottom: 0.13rem;
+	/* margin: 0 auto; */
+	margin-left: 0.18rem;
+}
+.head-zi{
+   height: 100%;
+   width: 2.15rem;
+   /* text-align: center; */
+   line-height: 0.92rem;
+   font-size: 0.4rem;
+   color: white;
+   margin-left: 0.15rem;
+   float: left;
+}
+.banner{
+	width: 100%;
+	height: 2.8rem;
+}
+.guanyu{
+	width: 100%;
+	height: 0.82rem;
+	background: #f5f6fa;
+	overflow: hidden;
+}
+.guanyu pre{
+    font-size: 0.23rem;
+    color: #494747;
+    padding-left: 0.23rem;
+    margin-top: 0.25rem;
+}
+.guanyu pre a{
+	color: #494747;
+}
+.jieshao{
+	width: 100%;
+	height: 9.25rem;
+	background: #f5f6fa;
+}
+.jieshao-1{
+	width: 7.02rem;
+	height: 9.25rem;
+	background:white;
+	margin: 0 auto;
+}
+.jieshao-2{
+	width: 100%;
+	height: 0.68rem;
+}
+.jieshao-21{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	margin-left: 0.19rem;
+	margin-top: 0.32rem;
+	float: left;
+}
+.jieshao-22{
+	width: 0.9rem;
+	height: 0.24rem;
+	color: black;
+	font-size: 0.24rem;
+	margin-top: 0.3rem;
+	margin-left: 0.2rem;
+	font-weight: bolder;
+	float: left;
+}
+.jieshao-zi{
+    width: 6.52rem;
+	height: 6.57rem;
+	margin: 0 auto;
+}
+.jieshao-zi-xu{
+	width: 100%;
+	height: 0.1rem;
+	border-top: 0.01rem dotted #999999;
+}
+.jieshao-zi-zheng{
+	width: 100%;
+	height: 6.47rem;
+}
+.jieshao-zi-zheng li{
+    font-size: 0.22rem;
+    color: #959595;
+    padding-bottom: 0.1rem;
+    font-family: "苹方"
+}
+.jieshao-zi-zheng li:nth-child(8){
+	padding-bottom: 0.44rem;
+}
+.wen{
+	height: 2.85rem;
+	width: 100%;
+	background: #f5f6fa;
+	overflow: hidden;
+}
+.wenzhong{
+	width: 7.02rem;
+	height: 2.77rem;
+	background: white;
+	margin: 0 auto;
+	margin-top: 0.1rem;
+}
+.wenzhong1{
+	width: 100%;
+	height: 0.67rem;
+	border-bottom: 0.01rem dotted #999999;
+}
+.wenzhong122{
+	width: 1.23rem;
+}
+.wenzhong2{
+	width:100%;
+    height: 2.1rem;
+    /* background: red; */
+}
+.wenzhong2 li a{
+    width: 1.33rem;
+    height: 1.33rem;
+    background: black;
+    float: left;
+    margin-top: 0.36rem;
+    border-radius: 50%;
+}
+.wenzhong2 li:nth-child(1) a{
+	margin-left: 0.78rem;
+}
+.wenzhong2 li:nth-child(2) a{
+	margin-left: 0.72rem;
+}
+.wenzhong2 li:nth-child(3) a{
+	margin-left: 0.72rem;
+}
+.wenzhong2-tu{
+    width: 1.33rem;
+    height: 1.33rem;
+    border-radius: 50%;
+
+}
+.yuanwang{
+	width: 100%;
+	height: 7.1rem;
+	background: #f5f6fa;
+}
+.yuanwang1{
+	width: 7.02rem;
+	height: 100%;
+	background: white;
+	margin: 0 auto;
+}
+.yuanwang1 li{
+	width: 100%;
+	height: 33.333333%;
+	border-top: 0.1rem solid #f5f6fa;
+	box-sizing: border-box;
+}
+.yuanwang-zi{
+	width: 100%;
+	height: 35%;
+	border-bottom: 0.01rem dotted #999999;
+	/* background: red; */
+}
+.yuanwang-zi2{
+	width: 100%;
+	height: 50%;
+	/* background: red; */
+	position: relative;
+}
+.yuanwangzi{
+	font-size:0.25rem;
+	font-weight: bolder;
+}
+.yuanwang-zi22{
+   top: 0.15rem;
+   left: 0.42rem;
+   position: absolute;
+   font-size: 0.25rem;
+   color: #666666;
+}
+.di{
+	height: 2.14rem;
+	width: 100%;
+	background: #f5f6fa;
+}
+.di-zhong{
+	width: 100%;
+	height: 2.14rem;
+	background: #f5f6fa;
+	margin: 0 auto;
+}
+.di-tu{
+    width: 1.68rem;
+    height: 1.68rem;
+    border-radius: 50%;
+    margin-left: 2.9rem;
+}
+.di-tu1{
+     width: 1.68rem;
+    height: 1.68rem;
+    border-radius: 50%;
+}
+.di-zi1{
+	height: 0.87rem;
+	width: 100%;
+	/* background: red; */
+}
+.di-zi11{
+	width: 100%;
+	height: 0.4rem;
+	/* background: blue; */
+	margin-top: 0.25rem;
+	font-size: 0.20rem;
+	color: #666666;
+	text-align: center;
+}
+.di-zi12{
+	height: 0.47rem;
+	width: 100%;
+	/* background: yellow; */
+	font-size: 0.20rem;
+	color: #666666;
+	text-align: center;
+}

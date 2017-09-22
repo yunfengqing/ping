@@ -1,0 +1,298 @@
+/*
+* @Author: jiaqi
+* @Date:   2017-07-22 17:41:20
+* @Last Modified by:   jiaqi
+* @Last Modified time: 2017-07-23 12:47:07
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.head{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+}
+.logo{
+	width: 1.06rem;
+	height:0.92rem;
+	/* background: red; */
+	float: left;
+	margin-left: 2.54rem;
+}
+.logo1{
+	width: 0.7rem;
+	height: 0.7rem;
+	/* margin-top: 0.13rem; */
+	margin-bottom: 0.13rem;
+	/* margin: 0 auto; */
+	margin-left: 0.18rem;
+}
+.head-zi{
+   height: 100%;
+   width: 2.15rem;
+   /* text-align: center; */
+   line-height: 0.92rem;
+   font-size: 0.4rem;
+   color: white;
+   margin-left: 0.15rem;
+   float: left;
+}
+.banner{
+	width: 100%;
+	height: 2.8rem;
+}
+.guanyu{
+	width: 100%;
+	height: 0.82rem;
+	background: #f5f6fa;
+	overflow: hidden;
+}
+.guanyu pre{
+    font-size: 0.23rem;
+    color: #494747;
+    padding-left: 0.23rem;
+    margin-top: 0.25rem;
+}
+.guanyu pre a{
+	color: #494747;
+}
+.wenyi{
+	width: 100%;
+	height: 7.28rem;
+	background: #f5f6fa;
+}
+.wentine{
+	width: 7.02rem;
+	height: 100%;
+	background: #fff;
+	margin: 0 auto;
+}
+.jieshao-2{
+	width: 100%;
+	height: 0.68rem;
+	border-bottom: 0.01rem dashed #999999;
+}
+.jieshao-21{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	margin-left: 0.19rem;
+	margin-top: 0.32rem;
+	float: left;
+}
+.jieshao-22{
+	width: -0.1rem;
+	height: 0.24rem;
+	color: black;
+	font-size: 0.24rem;
+	margin-top: 0.3rem;
+	margin-left: 0.2rem;
+	font-weight: bolder;
+	float: left;
+}
+.wenti-xia{
+	width: 100%;
+	height: 6.6rem;
+	font-size: 0.24rem;
+	color: #666666;
+	font-family: "苹方"
+}
+.wenti-xia p:first-child{
+	margin-top: 0.2rem;
+	margin-bottom: 0.5rem;
+}
+.wenyi2{
+	width: 100%;
+	height: 3.6rem;
+	background: #f5f6fa;
+}
+.wenyi2ne{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+	background: #474747;
+}
+.wenyi3{
+	width: 100%;
+	height: 3.76rem;
+	background: #f5f6fa;
+	margin: 0 auto;
+	font-size: 0.24rem;
+	color: #666666;
+	font-family: "苹方"
+}
+.wentinene{
+	width: 6.52rem;
+	height: 100%;
+	margin: 0 auto; 
+}
+.wenti-fenxiang{
+	margin-top: 0.30rem;
+	border-bottom: 0rem;
+	border-top: 0.01rem dashed #999999;
+}
+.wenyi3ne{
+	height: 2.40rem;
+}
+.fen1{
+	width: 1rem;
+	height: 0.54rem;
+	float: left;
+	margin-left: 0.16rem;
+	font-size: 0.22rem;
+	color: #000;
+	line-height: 0.54rem;
+	text-align: center;
+	margin-top: 0.24rem;
+}
+.fentu{
+	width: 2.89rem;
+	height: 0.54rem;
+	/* background: red; */
+	margin-top: 0.2rem;
+	/* margin-left: 1.44rem; */
+	float: left;
+}
+.fentu li{
+	width: 20%;
+	height: 100%;
+	/* background: green; */
+	display:flex;
+	justify-content: center;
+	align-items: center; 
+	float: left;
+}
+.fentu-di{
+	display: block;
+	height: 0.24rem;
+	width: 0.42rem;
+	/* background: burlywood; */
+}
+.fentu-tu{
+	height: 0.24rem;
+	width: 0.42rem;
+}
+.dianan{
+	float: right;
+	width: 1.21rem;
+	height: 0.54rem;
+	margin-top: 0.2rem;
+}
+.dianan li{
+    width: 50%;
+	height: 100%;
+	display:flex;
+	justify-content: center;
+	align-items: center; 
+	float: left;
+}
+.sx{
+	width: 100%;
+	height: 1.25rem;
+	background: #f5f6fa;
+}
+.sx-1{
+	width: 3.97rem;
+	height: 0.71rem;
+	margin-left: 0.4rem;
+	font-size: 0.24rem;
+	color: #000;
+}
+.sx-1 p{
+	float: left;
+	line-height: 0.71rem;
+}
+.sx-1 p:last-child{
+	color: #67c8fe;
+}
+.sx-2{
+	height: 0.54rem;
+	width: 6.44rem;
+	margin-left: 0.4rem;
+	font-size: 0.24rem;
+	color: #000;
+}
+.sx-2 p{
+	float: left;
+}
+.sx-2 p:last-child{
+	color: #67c8fe;
+}
+.xiabufen{
+	width: 100%;
+	height: 3.08rem;
+	background:#f5f6fa; 
+}
+.xiabufenne{
+	width: 7.02rem;
+	height: 100%;
+	background: #fff;
+	margin: 0 auto;
+}
+.xiabufen-xia{
+	width: 100%;
+	height: 2.17rem;
+	/* background: red; */
+}
+.xiabufen-xia-left{
+	width: 0.26rem;
+	height: 2.17rem;
+	float: left;
+}
+.xiabufen-xia-left-tu{
+	width: 0.26rem;
+	height: 2.17rem;
+}
+.xiabufen-xia-right{
+	width: 5.86rem;
+	height: 100%;
+	float: left;
+}
+.xiabufen-xia-right p{
+	font-size: 0.22rem;
+	color: #444444;
+	margin-top: 0.2rem;
+}
+.xiabufen-xia-right p:last-child{
+	color: #01b5ff;
+}
+.di{
+	height: 0.87rem;
+	width: 100%;
+	background: #f5f6fa;
+	border-top: 0.17rem solid #f5f6fa;
+}
+.di-zhong{
+	width: 100%;
+	height: 0.87rem;
+	background: #f5f6fa;
+	margin: 0 auto;
+}
+.di-zi1{
+	height: 0.87rem;
+	width: 100%;
+	/* background: red; */
+	background: #f5f6fa;
+}
+.di-zi11{
+	width: 100%;
+	height: 0.4rem;
+	/* background: blue; */
+	font-size: 0.20rem;
+	color: #666666;
+	background: #f5f6fa;
+	text-align: center;
+}
+.di-zi12{
+	height: 0.47rem;
+	width: 100%;
+	/* background: yellow; */
+	font-size: 0.20rem;
+	color: #666666;
+	background: #f5f6fa;
+	text-align: center;
+}	
